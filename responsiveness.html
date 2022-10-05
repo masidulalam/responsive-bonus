@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .welcome-massege{
+            background-color: burlywood;
+            height: 200px;
+        }
+        @media only screen and (max-width:688px) {
+            .welcome-massege{
+                background-color: green;
+                text-align: center;
+                height: 400px;
+            }
+        }
+        @media only screen and (min-width:688px) and (max-width:992px) {
+            .welcome-massege{
+                background-color: chocolate;
+                text-align: right;
+                height: 400px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="welcome-massege">
+            <h1>welcome to our site</h1>
+        </div>
+    </header>
+</body>
+</html>
